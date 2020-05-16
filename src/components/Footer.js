@@ -7,24 +7,24 @@ const Footer = () => {
         <>
             <Container style={{ backgroundColor: '#343a40' }} fluid>
                 <Row>
-                    <Col xl={3} className="mt-4 text-center">
+                    <Col xs={3} className="mt-4 text-center">
                         <a href="https://www.facebook.com" target="_blank">
-                            <FaFacebook color="#FFF" size="50" />
+                            <FaFacebook color="#FFF" size="40" />
                         </a>
                     </Col>
-                    <Col xl={3} className="mt-4 text-center">
+                    <Col xs={3} className="mt-4 text-center">
                         <a href="https://www.instagram.com" target="_blank">
-                            <FaInstagram color="#FFF" size="50" />
+                            <FaInstagram color="#FFF" size="40" />
                         </a>
                     </Col>
-                    <Col xl={3} className="mt-4 text-center">
+                    <Col xs={3} className="mt-4 text-center">
                         <a href="https://www.youtube.com" target="_blank">
-                            <FaYoutube color="#FFF" size="50" />
+                            <FaYoutube color="#FFF" size="40" />
                         </a>
                     </Col>
-                    <Col xl={3} className="mt-4 text-center">
+                    <Col xs={3} className="mt-4 text-center">
                         <a href="" target="_blank">
-                            <FaWhatsapp color="#FFF" size="50" />
+                            <FaWhatsapp color="#FFF" size="40" />
                         </a>
                     </Col>
                 </Row>
